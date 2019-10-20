@@ -53,8 +53,10 @@
 
 <!-- 
   <bean class="org.camunda.bpm.example.loanapproval.Starter" />
-  
+ --> 
   <bean id="calculateInterestService"
-    class="org.camunda.bpm.example.loanapproval.CalculateInterestService" />
- -->
+    class="de.martcre.wf.CalculateInterestService" />
+    
+   <bean id="orderBusinessLogic" class="de.martcre.wf.OrderBusinessLogicService" />
+ 
 </beans>
